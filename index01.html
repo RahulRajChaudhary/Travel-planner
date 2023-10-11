@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Planner</title>
+    <link rel="stylesheet" href="select.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Travel Planner</h1>
+        </div>
+    </header>
+    <main>
+        <section class="search-section">
+            <div class="container">
+                <h2>Plan Your Trip</h2>
+                <form id="search-form">
+                    <div class="form-group">
+                        <label for="destination">Destination:</label>
+                        <input type="text" id="destination" placeholder="Enter your destination" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="departure-date">Departure Date:</label>
+                        <input type="date" id="departure-date" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="return-date">Return Date:</label>
+                        <input type="date" id="return-date" required>
+                    </div>
+                    <div class="form-group">
+                        <button id="search-button" type="submit">Search</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+        <section class="results-section">
+            <div class="container">
+                <!-- Results will be displayed here -->
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Travel Planner</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
+
